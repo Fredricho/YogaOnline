@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather:wght@700&display=swap');
+
+
 body {
-    color:green
+    color:green;
+    font-family: bitter, sans-serif;
+}
+h1, h2{
+    font-family: Merriweather, sans-serif;
 }
