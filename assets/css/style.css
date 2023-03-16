@@ -46,10 +46,26 @@ h1, h2{
 #hero-image{
     background-image: url(../images/Hero-image1.jpg);
     width: 100%;
-    min-height: 90vh;
+    min-height: 80vh;
     background-position: center;
     background-size: cover;
     position: relative;
     margin-top: 30px;
     
+}
+/* Hero-Image text */
+
+#trial-button{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+
+.herotext{
+    position: absolute;
+    top: 280px;
+    left: 350px;
+    text-align: center;
+    color: white;
+    text-decoration: solid;
 }
