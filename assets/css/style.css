@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather:wght@700&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     color:green;
@@ -7,4 +10,11 @@ body {
 }
 h1, h2{
     font-family: Merriweather, sans-serif;
+}
+
+/* Hero-Image */
+#hero-image{
+    background: url(..//images/Hero-image1.jpg);
+    width: 100%;
+    
 }
