@@ -1,49 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather:wght@700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    color:green;
+    color: green;
     font-family: bitter, sans-serif;
 }
-h1, h2{
-    font-family: Merriweather, sans-serif;
-    color: black;
+
+
+
+/* Headings and loge */
+#logo {
+    float: left;
+    font-size: 250%;
+    /*display: flex;
+    top: 16px;
+    left: 12px;*/
+    letter-spacing: 3px; 
 }
-    /* Nav and Logo*/
-    .nav-links{
+
+h1,
+h2 {
+    font-family: Merriweather, sans-serif;
+    color: purple;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+/* Nav and Logo*/
+.nav-links {
     text-align: center;
     margin-top: 20px;
+    
+
 }
-    
-.nav-links li{
-    
+
+.nav-links li {
+
     list-style: none;
     display: inline-block;
     position: relative;
     padding: 4px 8px;
     letter-spacing: 1px;
-    
+
 }
-#signin-button{
+
+#signin-button {
     position: absolute;
     top: 20px;
     right: 20px;
     letter-spacing: 1px;
 }
-#logo{
-    position: absolute;
-    display: flex;
-    top: 16px;
-    left: 12px;
-    letter-spacing: 3px;
-    
-}
+
 
 /* Hero-Image */
-#hero-image{
+#hero-image {
     background-image: url(../images/Hero-image1.jpg);
     width: 100%;
     min-height: 80vh;
@@ -51,17 +69,18 @@ h1, h2{
     background-size: cover;
     position: relative;
     margin-top: 30px;
-    
+
 }
+
 /* Hero-Image text */
 
-#trial-button{
+#trial-button {
     position: absolute;
     top: 60px;
     left: 150px;
 }
 
-.herotext{
+.herotext {
     position: absolute;
     top: 280px;
     left: 350px;
